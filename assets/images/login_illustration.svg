@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Fondo circular -->
+  <circle cx="150" cy="150" r="120" fill="#e8f4fc" />
+  
+  <!-- Dispositivo/Teléfono -->
+  <rect x="100" y="70" width="100" height="160" rx="10" fill="#ffffff" stroke="#2196f3" stroke-width="3" />
+  <rect x="110" y="90" width="80" height="120" rx="2" fill="#f0f8ff" />
+  
+  <!-- Círculo del botón inferior -->
+  <circle cx="150" cy="210" r="8" fill="#e1f5fe" stroke="#2196f3" stroke-width="2" />
+  
+  <!-- Icono de usuario -->
+  <circle cx="150" cy="130" r="20" fill="#bbdefb" />
+  <circle cx="150" cy="115" r="10" fill="#2196f3" />
+  <path d="M130,145 Q150,165 170,145" fill="#2196f3" />
+  
+  <!-- Campos de formulario -->
+  <rect x="120" y="160" width="60" height="8" rx="2" fill="#bbdefb" />
+  <rect x="120" y="175" width="60" height="8" rx="2" fill="#bbdefb" />
+  
+  <!-- Candado de seguridad -->
+  <circle cx="210" cy="90" r="25" fill="#e1f5fe" />
+  <rect x="200" y="85" width="20" height="15" rx="2" fill="#2196f3" />
+  <rect x="205" y="75" width="10" height="10" rx="2" fill="#2196f3" />
+  
+  <!-- Elementos decorativos -->
+  <circle cx="70" cy="200" r="15" fill="#bbdefb" />
+  <circle cx="230" cy="180" r="10" fill="#bbdefb" />
+  <circle cx="50" cy="120" r="8" fill="#bbdefb" />
+  <circle cx="250" cy="130" r="12" fill="#bbdefb" />
+</svg>
