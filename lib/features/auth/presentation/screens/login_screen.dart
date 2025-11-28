@@ -34,24 +34,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
       return;
     }
 
-    ref.read(loginProvider.notifier).login(email, password);
+    // For now, we simulate login success and go to Home
+    // ref.read(loginProvider.notifier).login(email, password);
+    context.go('/');
   }
 
   @override
   Widget build(BuildContext context) {
-    ref.listen(loginProvider, (previous, next) {
-      if (next is AsyncError) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(next.error.toString().replaceAll('Exception: ', '')),
-            backgroundColor: AppTheme.errorColor,
-          ),
-        );
-      } else if (next is AsyncData) {
-        context.go('/dashboard');
-      }
-    });
-
+    // ref.listen(loginProvider, (previous, next) { ... }); 
+    
     final loginState = ref.watch(loginProvider);
     final isLoading = loginState is AsyncLoading;
 
