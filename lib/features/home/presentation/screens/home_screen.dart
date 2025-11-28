@@ -229,7 +229,7 @@ class _HomeScreenState extends State<HomeScreen> {
         mainAxisSize: MainAxisSize.min,
         children: [
           // Label - Keep it visible if possible, or allow shrinking slightly
-          const Text(
+          Text(
             'Empresa: ',
             style: TextStyle(color: Colors.grey[600], fontSize: 12, fontWeight: FontWeight.bold),
           ),
